@@ -681,6 +681,25 @@ h6,
     transition: .3s;
 }
 
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #036427;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 9999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #017736;
+}
+
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
